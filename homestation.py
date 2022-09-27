@@ -12,23 +12,6 @@ Adapted from examples in: https://datasheets.raspberrypi.com/picow/connecting-to
 '''
 
 
-
-
-'''
-TODO
-# Break code into classes - seperate ones for async tasks, loading the webserver, and generating the content
-# Finish standardisation of the input functions (raw string/dict/ named tuple?/both?)
-# Add some easy input options - button, RGB, text input
-# Create a template sensor and input part of the webpage, java gets locked in regardless
-# Make the page look cleaner
-# Make the blink status indicate what is happening more clearly, document this
-# Add 2 levels of optional debugging - print statements and optional OLED code for each, pass out with a getter function? ref PiicoDev
-
-Functions
-# General creation of webserver - input WLAN?
-Sensor data - input dict
-'''
-
 from machine import Pin
 import utime
 import network
