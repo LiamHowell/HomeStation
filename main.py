@@ -1,17 +1,4 @@
-'''
-HomeStation MicroPython Code
-Written by Liam Howell
-Project Write-up: https://core-electronics.com.au/projects/homestation/
-Full Repo: https://github.com/LiamHowell/HomeStation
-
-Hosts a live and easy to use,self hosted dashboard from a Pico W
-
-Adapted from the adaptation:
-https://core-electronics.com.au/projects/wifi-garage-door-controller-with-raspberry-pi-pico-w-smart-home-project/
-    Adapted from examples in: https://datasheets.raspberrypi.com/picow/connecting-to-the-internet-with-pico-w.pdf
-'''
-
-
+# HomeStation - Liam Howell - https://github.com/LiamHowell/HomeStation
 import homestation
 
 from PiicoDev_Unified import sleep_ms
@@ -47,3 +34,13 @@ sensorData = {
 
 homestation.homestation_Run(ssid,password,sensorData)
 
+
+'''
+Project Write-up: https://core-electronics.com.au/projects/homestation/
+
+Hosts a live and easy to use,self hosted dashboard from a Pico W
+
+Adapted from the adaptation:
+https://core-electronics.com.au/projects/wifi-garage-door-controller-with-raspberry-pi-pico-w-smart-home-project/
+    Adapted from examples in: https://datasheets.raspberrypi.com/picow/connecting-to-the-internet-with-pico-w.pdf
+'''
