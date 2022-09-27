@@ -136,7 +136,6 @@ class homestation_base():
     
     async def homestationInit(self):
         print('Connecting to WiFi...')
-        print(self.ssid,self.password)
         asyncio.create_task(self._connect_to_wifi())
 
         print('Setting up webserver...')
